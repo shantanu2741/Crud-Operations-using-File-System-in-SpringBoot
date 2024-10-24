@@ -32,27 +32,27 @@ Run the Application Run the application. The server will start on http://localho
 ## API Endpoints
 
 Method	Endpoint	Description
-- POST	/files/upload	Upload a file
-- GET	/files/download/{filename}	Download a file
-- PUT	/files/update/{filename}	Update file content
-- DELETE	/files/delete/{filename}	Delete a file
+- POST	/file/upload	Upload a file
+- GET	/file/download/{filename}	Download a file
+- PUT	/file/update/{filename}	Update file content
+- DELETE	/file/delete/{filename}	Delete a file
 
 ## Testing with Postman
 
-- 1. Upload File
-Method: POST
-URL: http://localhost:8080/files/upload
-Body: Select form-data, key as file, and choose a file to upload.
+### 1. Upload File
+- Method: POST
+- URL: http://localhost:8080/file/upload
+- Body: Select form-data, key as file, and choose a file to upload.
 
-- 2. Download File
-Method: GET
-URL: http://localhost:8080/files/download/{filename} (replace {filename} with the actual file name).
+### 2. Download File
+- Method: GET
+- URL: http://localhost:8080/file/download/{filename} (replace {filename} with the actual file name).
 
-- 3. Update File
-Method: PUT
-URL: http://localhost:8080/files/update/{filename}
-Body: Select x-www-form-urlencoded, key as content, and the value as the new content.
+### 3. Update File
+- Method: PUT
+- URL: http://localhost:8080/file/update/{filename}
+- Body: Select x-www-form-urlencoded, key as content, and the value as the new content.
 
-- 4. Delete File
-Method: DELETE
-URL: http://localhost:8080/files/delete/{filename} (replace {filename} with the file name you want to delete).
+### 4. Delete File
+- Method: DELETE
+- URL: http://localhost:8080/file/delete/{filename} (replace {filename} with the file name you want to delete).

@@ -20,7 +20,7 @@ This project provides a simple REST API to upload, download, update, and delete 
    ```bash
    git clone <your-repo-url>
    cd file-upload-rest-api
-Open in an IDE Open the project in your IDE Eclipse.
+Open the project in your Eclipse IDE.
 
 Build the Project Use Maven to build the project.
 

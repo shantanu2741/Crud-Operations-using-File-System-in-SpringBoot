@@ -46,7 +46,8 @@ Method	Endpoint	Description
 
 ### 2. Download File
 - Method: GET
-- URL: http://localhost:8080/file/download/{filename} (replace {filename} with the actual file name).
+- URL: http://localhost:8080/file/download/{filename}
+- (replace {filename} with the actual file name).
 
 ### 3. Update File
 - Method: PUT
@@ -55,4 +56,5 @@ Method	Endpoint	Description
 
 ### 4. Delete File
 - Method: DELETE
-- URL: http://localhost:8080/file/delete/{filename} (replace {filename} with the file name you want to delete).
+- URL: http://localhost:8080/file/delete/{filename}
+- (replace {filename} with the file name you want to delete).
